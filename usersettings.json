@@ -1,10 +1,6 @@
 {
   "workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: install this package
   "workbench.iconTheme": "material-icon-theme", //TODO: Install this package
-  "workbench.activityBar.visible": true,
-  "workbench.statusBar.visible": true,
-
-  "editor.renderWhitespace": "all",
 
   "window.titleBarStyle":"custom",
   "window.title": "${dirty}${rootName}"
