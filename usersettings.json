@@ -6,6 +6,6 @@
   "workbench.iconTheme": "material-icon-theme", //TODO: Install this package
 
   "window.titleBarStyle":"custom",
-  "window.title": "${dirty}${rootName}"
-
+  "window.title": "${dirty}${rootName}",
+  "editor.minimap.enabled": false
 }
