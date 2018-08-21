@@ -5,7 +5,7 @@
   "workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: install this package
   "workbench.iconTheme": "material-icon-theme", //TODO: Install this package
 
-  "window.titleBarStyle":"custom",
   "window.title": "${dirty}${rootName}",
+  "window.titleBarStyle":"custom",
   "editor.minimap.enabled": false
 }
