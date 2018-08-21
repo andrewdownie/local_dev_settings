@@ -1,13 +1,15 @@
 {
-  "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": true,
-  "editor.renderWhitespace": "all",
-  "window.zoomLevel": 0,
-  "workbench.startupEditor": "newUntitledFile",
-  "diffEditor.ignoreTrimWhitespace": true,
   "workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: install this package
   "workbench.iconTheme": "material-icon-theme", //TODO: Install this package
-  "window.title": "${dirty}${rootName}",
-  "window.titleBarStyle":"custom"
-  // TODO: set the terminal to WSL
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+
+  "editor.renderWhitespace": "all",
+
+  "window.titleBarStyle":"custom",
+  "window.title": "${dirty}${rootName}"
+
+  // OTHER STEPS:
+  // TODO: install the "vim" package published by the user "vscodevim"
+  // TODO: set the terminal to WSL (if on windows 10)
 }
