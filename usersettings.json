@@ -8,6 +8,6 @@
   "workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: install this package
   "workbench.iconTheme": "material-icon-theme", //TODO: Install this package
   "window.title": "${dirty}${rootName}",
-  "window.titleBarStyle":"custom" // TODO: Install: GTK Dark Title Bar
+  "window.titleBarStyle":"custom"
   // TODO: set the terminal to WSL
 }
