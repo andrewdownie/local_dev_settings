@@ -1,11 +1,11 @@
 {
+  // TODO: install the "vim" package published by the user "vscodevim"
+  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe", //TODO: uncomment this line if using windows 10
+
   "workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: install this package
   "workbench.iconTheme": "material-icon-theme", //TODO: Install this package
 
   "window.titleBarStyle":"custom",
   "window.title": "${dirty}${rootName}"
 
-  // OTHER STEPS:
-  // TODO: install the "vim" package published by the user "vscodevim"
-  // TODO: set the terminal to WSL (if on windows 10)
 }
