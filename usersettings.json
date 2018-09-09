@@ -3,7 +3,7 @@
   // "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe", //TODO: uncomment this line if using windows 10
 
   "workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: Install this package
-  "workbench.iconTheme": "vs-nomo-dark",
+  "workbench.iconTheme": "vs-nomo-dark", //TODO: Install this package
   "workbench.startupEditor": "none",
 
   "window.title": "${dirty}${rootName}",
