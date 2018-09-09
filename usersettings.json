@@ -2,11 +2,13 @@
   // TODO: install the "vim" package published by the user "vscodevim"
   // "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe", //TODO: uncomment this line if using windows 10
 
-  "workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: install this package
-  "workbench.iconTheme": "material-icon-theme", //TODO: Install this package
+  "workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: Install this package
+  "workbench.iconTheme": "vs-nomo-dark",
   "workbench.startupEditor": "none",
 
   "window.title": "${dirty}${rootName}",
-  "window.titleBarStyle":"custom",
-  "editor.minimap.enabled": false
+  "window.titleBarStyle": "custom",
+
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "interval",
 }
