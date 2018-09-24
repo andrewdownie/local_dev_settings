@@ -3,7 +3,7 @@
   // TODO: install the  "JSON Tools" package published by the user "Erik Lynd"
   // "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe", //TODO: uncomment this line if using windows 10
 
-  "workbench.colorTheme": "Monokai-Soft", //TODO: Install this package
+  "workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: Install this package
   "workbench.iconTheme": "vs-nomo-dark", //TODO: Install this package
   "workbench.startupEditor": "none",
 
