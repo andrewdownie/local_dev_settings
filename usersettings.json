@@ -12,4 +12,6 @@
 
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "interval",
+  
+  "debug.toolBarLocation": "docked",
 }
