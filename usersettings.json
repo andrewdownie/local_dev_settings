@@ -14,4 +14,10 @@
   "editor.lineNumbers": "interval",
   
   "debug.toolBarLocation": "docked",
+  
+  "explorer.sortOrder": "type",
+
+  "search.collapseResults": "alwaysCollapse",
+  "search.location": "panel",
+
 }
