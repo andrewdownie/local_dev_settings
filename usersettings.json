@@ -1,8 +1,8 @@
 {
-  // TODO: install the "Reveal File In Folder" package published by the user "Molunerfinn"
-  // TODO: install the "vim" package published by the user "vscodevim"
-  // TODO: install the  "JSON Tools" package published by the user "Erik Lynd"
   // "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe", //TODO: uncomment this line if using windows 10
+  // TODO: install the "Reveal File In Folder" package published by the user "Molunerfinn"
+  // TODO: install the  "JSON Tools" package published by the user "Erik Lynd"
+  // TODO: install the "vim" package published by the user "vscodevim"
 
   "workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: Install this package
   "workbench.iconTheme": "vs-nomo-dark", //TODO: Install this package
@@ -10,13 +10,14 @@
 
   "window.title": "${dirty}${rootName} ${dirty}",
 
+  "search.collapseResults": "alwaysCollapse",
+
+  "debug.toolBarLocation": "docked",
+
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "interval",
   
-  "debug.toolBarLocation": "docked",
-  
   "explorer.sortOrder": "type",
 
-  "search.collapseResults": "alwaysCollapse",
 
 }
