@@ -8,7 +8,7 @@
   "workbench.iconTheme": "vs-nomo-dark", //TODO: Install this package
   "workbench.startupEditor": "none",
 
-  "window.title": "${dirty}${rootName}",
+  "window.title": "${dirty}${rootName} ${dirty}",
 
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "interval",
