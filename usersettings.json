@@ -9,7 +9,6 @@
   "workbench.startupEditor": "none",
 
   "window.title": "${dirty}${rootName}",
-  "window.titleBarStyle": "custom",
 
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "interval",
