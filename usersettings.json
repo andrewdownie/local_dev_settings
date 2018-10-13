@@ -4,7 +4,8 @@
   // TODO: install the  "JSON Tools" package published by the user "Erik Lynd"
   // TODO: install the "vim" package published by the user "vscodevim"
 
-  "workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: Install this package
+  //"workbench.colorTheme": "Base16 Tomorrow Dark", //TODO: Install this package
+  "workbench.colorTheme": "Ocean-Dark-Soda", //TODO: Install this package
   "workbench.iconTheme": "vs-nomo-dark", //TODO: Install this package
   "workbench.startupEditor": "none",
 
