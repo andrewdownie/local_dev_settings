@@ -14,11 +14,14 @@
   "debug.toolBarLocation": "docked",
   "editor.lineNumbers": "interval",
   
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
   "editor.minimap.maxColumn": 230,
   "editor.minimap.side": "left",
   
   "explorer.sortOrder": "type",
+  "diffEditor.ignoreTrimWhitespace": true,
 
 }
