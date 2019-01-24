@@ -2,26 +2,29 @@
   // "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe", //TODO: uncomment this line if using windows 10
   // TODO: install the  "JSON Tools" package published by the user "Erik Lynd"
   // TODO: install the "vim" package published by the user "vscodevim"
+  // TODO: install the "Better Comments" package published by the user "Aaron Bond"
 
-  "workbench.colorTheme": "Ocean-Dark-Soda",
-  "workbench.iconTheme": "vs-nomo-dark", //TODO: Install this package
+  // Workbench
+  "workbench.colorTheme": "Ocean-Dark-Soda", // TODO: Install this package
   "workbench.startupEditor": "none",
 
+  // Unsorted
   "window.title": "${dirty}${rootName} ${dirty}",
-
   "search.collapseResults": "alwaysCollapse",
-
+  "diffEditor.ignoreTrimWhitespace": true,
   "debug.toolBarLocation": "docked",
-  "editor.lineNumbers": "interval",
-  
-  "editor.scrollbar.vertical": "hidden",
-  "editor.overviewRulerBorder": false,
+  "explorer.sortOrder": "type",
+
+  // Editor
   "editor.minimap.renderCharacters": false,
+  "editor.scrollbar.vertical": "hidden",
   "editor.minimap.showSlider": "always",
+  "editor.overviewRulerBorder": false,
+  "editor.lineNumbers": "interval",
   "editor.minimap.maxColumn": 230,
   "editor.minimap.side": "left",
-  
-  "explorer.sortOrder": "type",
-  "diffEditor.ignoreTrimWhitespace": true,
+
+  // Javascript
+  "javascript.updateImportsOnFileMove.enabled": "always",
 
 }
