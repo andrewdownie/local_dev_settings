@@ -1,8 +1,9 @@
 {
   // "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe", //TODO: uncomment this line if using windows 10
+  // TODO: install the  "JSON Tools" package published by the user "Erik Lynd"
+  // TODO: install the "vim" package published by the user "vscodevim"
   // TODO: install the "Better Comments" package published by the user "Aaron Bond"
   // TODO: install the "Todo Tree" package published by the user "Gruntfuggly"
-  // TODO: install the "vim" package published by the user "vscodevim"
 
   // Workbench
   "workbench.colorTheme": "Ocean-Dark-Soda", // TODO: Install this package
@@ -26,5 +27,8 @@
 
   // Javascript
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.sideBar.location": "left",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
 
 }
