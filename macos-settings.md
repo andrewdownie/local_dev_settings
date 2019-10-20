@@ -6,11 +6,17 @@ VIM is almost unusable without key repeat. Key repeat is disabled by default on 
 You will need to logout and log back in for the commands below to take effect in all the apps.
 
 ### ENABLE KEY REPEAT
-```defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false```
+```bash
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+```
 
 ### SET SPEED OF REPEATING KEYS
-```defaults write -g KeyRepeat -int 6 # normal minimum is 2 (30ms)```
+```bash
+defaults write -g KeyRepeat -int 6 # normal minimum is 2 (30ms)
+```
 
 ### SET DELAY BEFORE REPEATING STARTS
-```defaults write -g InitialKeyRepeat -int 12 # normal is 15 (225 ms)```
+```bash
+defaults write -g InitialKeyRepeat -int 12 # normal is 15 (225 ms)
+```
 
