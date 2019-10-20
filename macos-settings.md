@@ -3,7 +3,7 @@
 ## Changing key repeat on Mac OS
 VIM is almost unusable without key repeat. Key repeat is disabled by default on Mac OS.
 
-You will need to logout and log back in for the commands below to take effect in all the apps.
+You will need to logout and log back in for the commands below to take effect in all apps.
 
 ### ENABLE KEY REPEAT
 ```bash
