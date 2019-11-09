@@ -20,7 +20,7 @@ defaults write -g KeyRepeat -int 6 # normal minimum is 2 (30ms)
 defaults write -g InitialKeyRepeat -int 12 # normal is 15 (225 ms)
 ```
 
-### Find and kill application using port
+### FIND AND KILL THE APPLICATION USING A PORT
 ####  List the apps using the port
 ```bash
 sudo lsof -i tcp:<PORT>
@@ -28,4 +28,10 @@ sudo lsof -i tcp:<PORT>
 #### Stop the app
 ```bash
 sudo kill -9 <PID>
+```
+
+#### Combined approach
+##### You will get an error everytime. This is because it will try to kill the PID of every line that comes out of the lsof command, including the header that has the text 'PID'
+```bash
+kill -9 $(lsof -i tcp:<PORT> | awk '{print $2}')
 ```
