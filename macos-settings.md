@@ -20,3 +20,6 @@ defaults write -g KeyRepeat -int 6 # normal minimum is 2 (30ms)
 defaults write -g InitialKeyRepeat -int 12 # normal is 15 (225 ms)
 ```
 
+### Find and kill application using port
+#### sudo lsof -i tcp:<PORT>
+#### sudo kill -9 <PID>
