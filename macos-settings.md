@@ -21,5 +21,11 @@ defaults write -g InitialKeyRepeat -int 12 # normal is 15 (225 ms)
 ```
 
 ### Find and kill application using port
-#### sudo lsof -i tcp:<PORT>
-#### sudo kill -9 <PID>
+####  List the apps using the port
+```bash
+sudo lsof -i tcp:<PORT>
+```
+#### Stop the app
+```bash
+sudo kill -9 <PID>
+```
