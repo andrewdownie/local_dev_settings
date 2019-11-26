@@ -11,3 +11,7 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 - open and close terminal: crtl + `
 - code panel 1: crtl + 1
 - code panel 2: crtl + 2
+
+## Bash
+- crtl + u to delete current line
+- crtl + l to clear visible terminal area
