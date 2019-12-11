@@ -2,7 +2,6 @@
   // TODO: install the "vim" package published by the user "vscodevim"
 
   // Workbench
-  "workbench.iconTheme": "vscode-seedling-icon-theme", //TODO: install seedling icon theme
   "workbench.colorTheme": "Ocean-Dark-Soda", // TODO: Install this package
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.enablePreview": false,
