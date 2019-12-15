@@ -24,8 +24,13 @@
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
   "editor.minimap.maxColumn": 230,
-  "editor.minimap.enabled": false, // Experimenting with not using a minimap to become more familiar with the code, and to give more horizonal space
+  "editor.minimap.enabled": false, // Experimenting with not using a minimap to become more familiar with the code
   "editor.minimap.side": "left",
   // Javascript
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.list.horizontalScrolling": true,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.quickSuggestionsDelay": 100,
+  "workbench.editor.labelFormat": "short",
+  "breadcrumbs.enabled": false,
 }
