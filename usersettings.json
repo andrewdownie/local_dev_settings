@@ -3,8 +3,10 @@
   // TODO: install the "Ocean-Dark-Soda" theme published by "gerane"
   // Workbench
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.list.horizontalScrolling": true,
   "workbench.colorTheme": "Ocean-Dark-Soda",
   "workbench.editor.enablePreview": false,
+  "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "none",
   // Window
   "window.title": "${dirty}${rootName} ${dirty}",
@@ -15,10 +17,13 @@
   "search.collapseResults": "alwaysCollapse",
   "diffEditor.ignoreTrimWhitespace": true,
   "debug.toolBarLocation": "docked",
+  "breadcrumbs.enabled": false,
   "explorer.sortOrder": "type",
   // Editor
+  "editor.acceptSuggestionOnEnter": "off",
   "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
+  "editor.quickSuggestionsDelay": 100,
   "editor.lineNumbers": "interval",
   // Minimap
   "editor.minimap.renderCharacters": false,
@@ -28,9 +33,4 @@
   "editor.minimap.side": "left",
   // Javascript
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.list.horizontalScrolling": true,
-  "editor.acceptSuggestionOnEnter": "off",
-  "editor.quickSuggestionsDelay": 100,
-  "workbench.editor.labelFormat": "short",
-  "breadcrumbs.enabled": false,
 }
