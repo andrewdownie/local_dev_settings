@@ -1,34 +1,31 @@
 {
-  // TODO: install the "vim" package published by the user "vscodevim"
-
+  // TODO: install the "vim" package published by "vscodevim"
+  // TODO: install the "Ocean-Dark-Soda" theme published by "gerane"
   // Workbench
-  "workbench.colorTheme": "Ocean-Dark-Soda", // TODO: Install this package
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.colorTheme": "Ocean-Dark-Soda",
   "workbench.editor.enablePreview": false,
-  "workbench.sideBar.location": "left",
   "workbench.startupEditor": "none",
-
-
-
-
-  // Unsorted
+  // Window
   "window.title": "${dirty}${rootName} ${dirty}",
+  "window.newWindowDimensions": "fullscreen",
+  "window.restoreFullscreen": true,
+  "window.zoomLevel": 0,
+  // Unsorted
   "search.collapseResults": "alwaysCollapse",
   "diffEditor.ignoreTrimWhitespace": true,
   "debug.toolBarLocation": "docked",
   "explorer.sortOrder": "type",
-
   // Editor
-  "editor.minimap.renderCharacters": false,
   "editor.scrollbar.vertical": "hidden",
-  "editor.minimap.showSlider": "always",
   "editor.overviewRulerBorder": false,
   "editor.lineNumbers": "interval",
+  // Minimap
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
   "editor.minimap.maxColumn": 230,
+  "editor.minimap.enabled": false, // Experimenting with not using a minimap to become more familiar with the code, and to give more horizonal space
   "editor.minimap.side": "left",
-
   // Javascript
   "javascript.updateImportsOnFileMove.enabled": "always",
-
-
 }
