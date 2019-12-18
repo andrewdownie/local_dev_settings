@@ -6,7 +6,8 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 - Search: crtl + shift + f
 - Git: crtl + shift + g
 - Debug: crtl + shift + d
-- Hide activity bar: focus on the Activity bar (with any of the above commands) and then crtl + b
+- Hide activity bar: focus on the Activity bar (with any of the above commands) and then crtl + b  
+- collapse all items in the current list: ctrl + leftArrow
 
 - open and close terminal: crtl + `
 - code panel 1: crtl + 1
@@ -21,6 +22,7 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 ## Chrome
 - ctrl + tab to shift one tab to the right
 - ctrl + shift + tab to shift one tab to left
+- ctrl + t to create a new tab
 
 ## Windows
 - winKey + num to jump to corresponding app on the taskbar
