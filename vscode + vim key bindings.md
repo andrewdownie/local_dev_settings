@@ -17,3 +17,10 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 ## Bash
 - crtl + u to delete current line
 - crtl + l to clear visible terminal area
+
+## Chrome
+- ctrl + tab to shift one tab to the right
+- ctrl + shift + tab to shift one tab to left
+
+## Windows
+- winKey + num to jump to corresponding app on the taskbar
