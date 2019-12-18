@@ -1,7 +1,7 @@
-# VSCode + Vim keybinds quick reference
+## Using VIM in VSCode
 Using the vim extension in vscode creates a strange hybrid where half the hotkeys are from vscode, and half the hotkeys are from vim.
 
-## Activity bar:
+## VSCode Activity bar
 - Explorer: ctrl + shift + e
 - Search: ctrl + shift + f
 - Git: ctrl + shift + g
@@ -10,6 +10,7 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 - Hide activity bar: focus on the Activity bar (with any of the above commands) and then crtl + b  
 - collapse all items in the current list: ctrl + leftArrow
 
+## VSCode Editor
 - open and close terminal: ctrl + `
 - code panel 1: ctrl + 1
 - code panel 2: ctrl + 2
