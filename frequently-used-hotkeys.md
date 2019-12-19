@@ -9,6 +9,7 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 - Extensions: ctrl + shift + x
 - Hide activity bar: focus on the Activity bar (with any of the above commands) and then crtl + b  
 - collapse all items in the current list: ctrl + leftArrow
+- Create and name new file: ctrl + n (this requires rebinding ctrl + n to 'File: New File', instead of 'File: New Untitled File')
 
 ## VSCode Editor
 - open and close terminal: ctrl + `
