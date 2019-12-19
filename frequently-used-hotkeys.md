@@ -27,6 +27,7 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 - ctrl + t to create a new tab
 - ctrl + w to close current tab
 - ctrl + num to jump to tab at index (how do you jump past tab 10 tho?)
+- ctrl + l to jump to address bar
 
 ## Windows
 - winKey + num to jump to corresponding app on the taskbar
