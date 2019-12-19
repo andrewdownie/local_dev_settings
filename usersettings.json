@@ -1,4 +1,5 @@
 {
+  // TODO: bind ctrl + n to "File: New File", instead of "File : New Untitled File". This lets you create and a new file in the explorer.
   // TODO: install the "vim" package published by "vscodevim"
   // TODO: install the "Ocean-Dark-Soda" theme published by "gerane"
   // Workbench
@@ -33,4 +34,5 @@
   "editor.minimap.side": "left",
   // Javascript
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.activityBar.visible": true,
 }
