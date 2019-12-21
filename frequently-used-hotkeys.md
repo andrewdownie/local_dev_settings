@@ -32,3 +32,6 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 
 ## Windows
 - winKey + num to jump to corresponding app on the taskbar
+
+## Postman
+- Ctrl + enter to send current request
