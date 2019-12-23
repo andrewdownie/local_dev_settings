@@ -30,6 +30,11 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 - ctrl + num to jump to tab at index (how do you jump past tab 10 tho?)
 - ctrl + l to jump to address bar
 
+## cVim for Chrome
+- gi to jump to first input
+  - tab to jump to next input
+- is there anyway to jump to first button, and then tab between buttons?
+
 ## Windows
 - winKey + num to jump to corresponding app on the taskbar
 
