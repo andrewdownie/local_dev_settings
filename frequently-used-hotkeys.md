@@ -17,6 +17,7 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 - code panel 2: ctrl + 2
 - code tab 1: alt + 1
 - code tab 2: alt + 2
+- format current document: shift + alt + f
 
 ## Bash
 - ctrl + u to delete current line
