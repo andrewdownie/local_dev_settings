@@ -34,5 +34,6 @@
   "editor.minimap.side": "left",
   // Javascript
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.implicitProjectConfig.checkJs": true,
   "workbench.activityBar.visible": true,
 }
