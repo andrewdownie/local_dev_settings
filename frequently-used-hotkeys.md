@@ -47,7 +47,9 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 ## Custom mouse macros	
 - change scroll wheel left to Ctrl+Windows+Left (move one virtual desktop to the left)	
 - change scroll wheel right to Ctrl+Windows+Right (move one virtual desktop to the left)	
-- change DPI button to Windows+Tab (Virtual Desktop taskview)	
+- change DPI button to Windows+Tab (Virtual Desktop taskview)
+
+- if you are using the Autohotkey setup mentioned above, bind scroll wheel left to left windows, and scroll wheel right to right windows
 
 ## Postman
 - Ctrl + enter to send current request
