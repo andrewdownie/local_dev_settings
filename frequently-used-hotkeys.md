@@ -39,10 +39,5 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 ## Windows
 - winKey + num to jump to corresponding app on the taskbar
 
-## Custom mouse macros
-- change scroll wheel left to Ctrl+Windows+Left (move one virtual desktop to the left)
-- change scroll wheel right to Ctrl+Windows+Right (move one virtual desktop to the left)
-- change DPI button to Windows+Tab (Virtual Desktop taskview)
-
 ## Postman
 - Ctrl + enter to send current request
