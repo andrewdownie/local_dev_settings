@@ -39,5 +39,10 @@ Using the vim extension in vscode creates a strange hybrid where half the hotkey
 ## Windows
 - winKey + num to jump to corresponding app on the taskbar
 
+## Autohotkey
+Rebind Left-Windows Key up event to shift one desktop to the left
+Rebind Right-Windows Key up event to shift one desktop to the right
+See Autohotkey file in this repo
+
 ## Postman
 - Ctrl + enter to send current request
