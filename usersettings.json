@@ -2,7 +2,7 @@
   // TODO: bind ctrl + n to "File: New File", instead of "File : New Untitled File". This lets you create a new file in the explorer folder currently focused on.
   
   // TODO: install icon pack: "Easy Icon Theme"
-  // TODO: install theme "Ocean-Dark-Soda"
+  // TODO: install theme "Super One Dark"
 
   // TODO: install extension "Visual Studio Intellicode"
   // TODO: install extension "Auto Hide"
@@ -14,9 +14,10 @@
 
   // Workbench
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.colorTheme": "Ocean-Dark-Soda",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.colorTheme": "Super One Dark",
   "workbench.editor.enablePreview": false,
-  "workbench.sideBar.location": "left",
+  "workbench.sideBar.location": "right",
   "workbench.iconTheme": "easy-icons",
   "workbench.startupEditor": "none",
 
@@ -54,7 +55,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
 
   // Extension - Auto Hide
-  "autoHide.autoHideSideBar": false,
+  "autoHide.sideBarDelay": 0,
   "autoHide.panelDelay": 0,
 
   // Extension - VSIntellicode
