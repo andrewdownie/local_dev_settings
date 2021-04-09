@@ -3,8 +3,6 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-; Inbox - Andrew_Downie@manulife.ca - Outlook
-
 #E::
     IfWinExist, ahk_exe Explorer.EXE,,2
     {
