@@ -21,7 +21,7 @@ F14::
 Return
 
 F15::
-	; Rewind Youtube video 5 seconds
+	; Fast forward Youtube video 5 seconds
 	WinGet, ActiveID, ID, A
 	WinActivate,%BrowserName%
 	Controlsend,,{right},%BrowserName%
