@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://www.youtube.com/
+// @match        https://www.youtube.com
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @grant        none
 // ==/UserScript==
@@ -17,8 +17,11 @@
 
     function selectElements() {
         //console.log("selectElements");
-        setTimeout(() => {
+
+        if (location.href == "https://www.youtube.com/") {
+
             elements = document.body.querySelectorAll("span.ytd-thumbnail-overlay-time-status-renderer");
+
             if (elements.length > 0) {
                 for (let i = 0; i < elements.length; i++) {
                     const element = elements[i];
@@ -46,15 +49,19 @@
                         seconds=parseInt(trimmedSeconds);
                     }
 
-                    console.log("time pieces", hours, minutes, seconds);
-
+                    const elementRoot = element.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement;
                     if (hours == 0 && minutes < 2) {
-                        const deleteElement = element.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement;
-                        deleteElement.remove();
+                        elementRoot.style.display = 'none';
+                    } else {
+                        elementRoot.style.display = '';
                     }
 
                 }
+
             }
+        }
+
+        setTimeout(() => {
             selectElements();
         }, 250);
     }
