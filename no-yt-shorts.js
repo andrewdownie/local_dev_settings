@@ -17,6 +17,10 @@
 
     function selectElements() {
         //console.log("selectElements");
+       
+        if (location.href.includes("youtube.com/shorts")) {
+            window.location.replace("https://www.youtube.com");
+        }
 
         elements = document.body.querySelectorAll("span.ytd-thumbnail-overlay-time-status-renderer");
 
