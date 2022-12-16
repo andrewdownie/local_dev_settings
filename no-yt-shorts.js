@@ -33,7 +33,7 @@
                 let trimmedHours = 0, trimmedMinutes = 0, trimmedSeconds = 0;
                 let hours = 0, minutes = 0, seconds = 0;
 
-                if (timePieces == 3) {
+                if (timePieces.length == 3) {
                     trimmedHours = timePieces[0].trim();
                     trimmedMinutes = timePieces[1].trim();
                     trimmedSeconds = timePieces[2].trim();
