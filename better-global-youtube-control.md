@@ -1,5 +1,5 @@
 # Better Global Youtube Control
-This is a better approach for controling Youtube than what's found adjacent file: ```youtubeControl.ahk```
+This is a better approach for controling Youtube than what's found in adjacent file: ```youtubeControl.ahk```
 
 Instead of using autohotkey, we can use a chrome extension, and then map a global chrome hotkey to that extension to control youtube from anywhere. Should work for any chromium based browser.
 
