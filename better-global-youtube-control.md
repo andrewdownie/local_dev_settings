@@ -1,0 +1,26 @@
+# Better Global Youtube Control
+This is a better approach for controling Youtube than what's found adjacent file: ```youtubeControl.ahk```
+
+Instead of using autohotkey, we can use a chrome extension, and then map a global chrome hotkey to that extension to control youtube from anywhere. Should work for any chromium based browser.
+
+This has two distinct benefits
+- One: it no longer requires autohotkey, and therefore becomes a ```cross platform``` approach
+- Two: ```does not lose focus``` from the current window, meaning youtube can be paused in the middle of typing into a text box without any interruption, whereas the autohotkey approach would end edit mode of the text box.
+
+# Setup steps
+## 1) Add Youtube extension to chrome
+Full url: ```https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge/related```
+
+Extension name: ```Tweaks for YouTube```
+
+# 2) Create global chrome hotkeys
+Visit: ```chrome://extensions/shortcuts```
+
+Find ```Tweaks for YouTube``` section. Set a hotkey for the fuction you want a global hotkey for. Once the hotkey is set, click the dropdown to the right of the hotkey, and change the selected option to be ```Global```. You should now be able to control youtube with that hotkey from anywhere in your OS.
+
+For example you could set ```Toggle play``` to ```Ctrl + Space```, change the drop down to ```Global``` and then while in another program press ```Ctrl + Space``` to pause/play the last youtube video you _manually paused or played_.
+
+# Notes
+- This seems to control the last youtube video you played/paused (if it stops working, try cycling play/pause of the video with regular mouse clicks)
+- If you update a hotkey, be sure to reapply the ```Global``` option in the adjacent dropdown
+- You'll probably still want to map the chrome hotkey to a single key with another program for more convient use, such as with autohotkey, keyboard / mouse macro software or other
