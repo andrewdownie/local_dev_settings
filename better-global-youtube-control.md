@@ -14,7 +14,7 @@ Full url: [https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifdd
 Extension name: [Tweaks for YouTube](https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge)
 
 # 2) Create global chrome hotkeys
-Visit: ```https://chrome://extensions/shortcuts``` (All chromium based browsers recognize this url)
+Visit: ```chrome://extensions/shortcuts``` (All chromium based browsers recognize this url)
 
 While at the above url, find ```Tweaks for YouTube``` section. Set a hotkey for the function you want a global hotkey for. Once the hotkey is set, click the dropdown to the right of the hotkey, and change the selected option to be ```Global```. You should now be able to control youtube with that hotkey from anywhere in your OS.
 
