@@ -9,7 +9,7 @@ This has two distinct benefits
 
 # Setup steps
 ## 1) Add Youtube extension to chrome
-Full url: ```https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge/related```
+Full url: ```https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge```
 
 Extension name: ```Tweaks for YouTube```
 
