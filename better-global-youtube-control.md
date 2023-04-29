@@ -1,5 +1,5 @@
 # Better Global Youtube Control
-This is a better approach for controling Youtube than what's found in adjacent file: ```youtubeControl.ahk```
+This is a better approach for controlling Youtube than what's found in adjacent file: ```youtubeControl.ahk```
 
 Instead of using autohotkey, we can use a chrome extension, and then map a global chrome hotkey to that extension to control youtube from anywhere. Should work for any chromium based browser.
 
@@ -24,7 +24,7 @@ For example you could set ```Toggle play``` to ```Ctrl + Space```, change the dr
 - This seems to control the last youtube video you played/paused
   - if it stops working, try cycling play/pause of the video with regular mouse clicks, and then trying the hotkey again
 - If you update a hotkey, be sure to reapply the ```Global``` option in the adjacent dropdown
-- You'll probably still want to map the global chrome hotkey to a single key with another program for more convient use
+- You'll probably still want to map the global chrome hotkey to a single key with another program for more convenient use
   - such as with autohotkey, remap software that came with a keyboard/mouse or any other key remap software
 - Consider using: [Windowed - floating Youtube/every website](https://chrome.google.com/webstore/detail/windowed-floating-youtube/gibipneadnbflmkebnmcbgjdkngkbklb?hl=en) chrome extension if viewing youtube videos in a situation where you can't use normal full screen, such as when using a single high res screen to hold all of your windows side by side
   - you can use "in-window" full screen via the above extension, and then put chrome into ui-less mode with ctrl+f11 to maximize video area
