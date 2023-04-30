@@ -27,4 +27,3 @@ For example you could set ```Toggle play``` to ```Ctrl + Space```, change the dr
 - You'll probably still want to map the global chrome hotkey to a single key with another program for more convenient use
   - such as with autohotkey, remap software that came with a keyboard/mouse or any other key remap software
 - Consider using: [Windowed - floating Youtube/every website](https://chrome.google.com/webstore/detail/windowed-floating-youtube/gibipneadnbflmkebnmcbgjdkngkbklb?hl=en) chrome extension if viewing youtube videos in a situation where you can't use normal full screen, such as when using a single high res screen to hold all of your windows side by side
-  - you can use "in-window" full screen via the above extension, and then put chrome into ui-less mode with ctrl+f11 to maximize video area
